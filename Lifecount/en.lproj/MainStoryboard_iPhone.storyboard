@@ -12,31 +12,31 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o4F-b4-Gur">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" id="o4F-b4-Gur">
                                 <rect key="frame" x="140" y="55" width="41" height="31"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fsX-Kp-FLg">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" id="fsX-Kp-FLg">
                                 <rect key="frame" x="234" y="216" width="41" height="31"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QES-LG-V5R">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" id="QES-LG-V5R">
                                 <rect key="frame" x="42" y="216" width="41" height="31"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="612-Ca-GWQ">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" id="612-Ca-GWQ">
                                 <rect key="frame" x="140" y="360" width="41" height="31"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="90v-7T-gcv">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="90v-7T-gcv" customClass="GradientButton">
                                 <rect key="frame" x="116" y="92" width="38" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="-1">
@@ -50,7 +50,7 @@
                                     <action selector="minusOneP1:" destination="2" eventType="touchDown" id="Jnt-2Y-smp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XbY-Rj-eSa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XbY-Rj-eSa" customClass="GradientButton">
                                 <rect key="frame" x="162" y="92" width="42" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="+1">
@@ -64,24 +64,18 @@
                                     <action selector="plusOneP1:" destination="2" eventType="touchDown" id="kG5-5Q-wJ3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="hYt-Ow-IqF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hYt-Ow-IqF" customClass="GradientButton">
                                 <rect key="frame" x="116" y="6" width="38" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="-5">
-                                            <attributes>
-                                                <color key="NSColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="15" name="Helvetica-Bold"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="-5">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="minusFiveP1:" destination="2" eventType="touchDown" id="gQg-aA-EhP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SGL-ey-gaN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SGL-ey-gaN" customClass="GradientButton">
                                 <rect key="frame" x="162" y="6" width="42" height="44"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="+5">
@@ -92,7 +86,7 @@
                                     <action selector="plusFiveP1:" destination="2" eventType="touchDown" id="QZn-RB-cmW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U0m-X9-gXN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U0m-X9-gXN" customClass="GradientButton">
                                 <rect key="frame" x="20" y="249" width="38" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="-1">
@@ -106,7 +100,7 @@
                                     <action selector="minusOneP4:" destination="2" eventType="touchDown" id="QcF-Hh-2ok"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="csa-ML-hqX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="csa-ML-hqX" customClass="GradientButton">
                                 <rect key="frame" x="66" y="249" width="42" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="+1">
@@ -120,7 +114,7 @@
                                     <action selector="plusOneP4:" destination="2" eventType="touchDown" id="cEX-b9-lT9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5NA-I7-VV8">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5NA-I7-VV8" customClass="GradientButton">
                                 <rect key="frame" x="20" y="167" width="38" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="-5">
@@ -134,7 +128,7 @@
                                     <action selector="minusFiveP4:" destination="2" eventType="touchDown" id="gmp-2K-4sI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XWo-pa-D02">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XWo-pa-D02" customClass="GradientButton">
                                 <rect key="frame" x="66" y="167" width="42" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="+5">
@@ -148,7 +142,7 @@
                                     <action selector="plusFiveP4:" destination="2" eventType="touchDown" id="efS-9a-Nrh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m1G-Yj-yaW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m1G-Yj-yaW" customClass="GradientButton">
                                 <rect key="frame" x="212" y="249" width="38" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="-1">
@@ -162,7 +156,7 @@
                                     <action selector="minusOneP2:" destination="2" eventType="touchDown" id="nf0-nE-huq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Csb-mA-qpP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Csb-mA-qpP" customClass="GradientButton">
                                 <rect key="frame" x="258" y="249" width="42" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="+1">
@@ -176,7 +170,7 @@
                                     <action selector="plusOneP2:" destination="2" eventType="touchDown" id="1Ys-A0-wkI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YhT-tV-SyK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YhT-tV-SyK" customClass="GradientButton">
                                 <rect key="frame" x="212" y="167" width="38" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="-5">
@@ -190,7 +184,7 @@
                                     <action selector="minusFiveP2:" destination="2" eventType="touchDown" id="s6b-x1-e2d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dAv-lt-W4G">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dAv-lt-W4G" customClass="GradientButton">
                                 <rect key="frame" x="258" y="167" width="42" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="+5">
@@ -204,7 +198,7 @@
                                     <action selector="plusFiveP2:" destination="2" eventType="touchDown" id="amV-X6-GOk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uBk-6v-CRz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uBk-6v-CRz" customClass="GradientButton">
                                 <rect key="frame" x="116" y="397" width="38" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="-1">
@@ -218,7 +212,7 @@
                                     <action selector="minusOneP3:" destination="2" eventType="touchDown" id="G8y-4a-jLV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cIf-Dz-dhp">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cIf-Dz-dhp" customClass="GradientButton">
                                 <rect key="frame" x="162" y="397" width="42" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="+1">
@@ -232,7 +226,7 @@
                                     <action selector="plusOneP3:" destination="2" eventType="touchDown" id="dNz-VT-IYE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Kx-PE-QT7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Kx-PE-QT7" customClass="GradientButton">
                                 <rect key="frame" x="116" y="311" width="38" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="-5">
@@ -246,7 +240,7 @@
                                     <action selector="minusFiveP3:" destination="2" eventType="touchDown" id="nbc-hM-FU9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BUL-ah-GtG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BUL-ah-GtG" customClass="GradientButton">
                                 <rect key="frame" x="162" y="311" width="42" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="+5">
@@ -260,7 +254,7 @@
                                     <action selector="plusFiveP3:" destination="2" eventType="touchDown" id="Hgm-up-MOu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="center" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Phn-M8-HLf">
+                            <button opaque="NO" contentMode="center" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Phn-M8-HLf" customClass="GradientButton">
                                 <rect key="frame" x="128" y="187" width="65" height="66"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -280,9 +274,26 @@
                     </view>
                     <connections>
                         <outlet property="p1LivesView" destination="o4F-b4-Gur" id="DLb-yW-Cm0"/>
+                        <outlet property="p1MinusFiveBtn" destination="hYt-Ow-IqF" id="I8d-ar-kE6"/>
+                        <outlet property="p1MinusOneBtn" destination="90v-7T-gcv" id="q05-NN-VVm"/>
+                        <outlet property="p1PlusFiveBtn" destination="SGL-ey-gaN" id="TCj-dB-p47"/>
+                        <outlet property="p1PlusOneBtn" destination="XbY-Rj-eSa" id="XKT-Wy-Myf"/>
                         <outlet property="p2LivesView" destination="fsX-Kp-FLg" id="Za8-CU-vkr"/>
+                        <outlet property="p2MinusFiveBtn" destination="YhT-tV-SyK" id="T5K-UJ-z9a"/>
+                        <outlet property="p2MinusOneBtn" destination="m1G-Yj-yaW" id="X3m-Pw-LuA"/>
+                        <outlet property="p2PlusFiveBtn" destination="dAv-lt-W4G" id="cPA-8n-MiA"/>
+                        <outlet property="p2PlusOneBtn" destination="Csb-mA-qpP" id="d4p-zv-tQA"/>
                         <outlet property="p3LivesView" destination="612-Ca-GWQ" id="AoC-aJ-SJ7"/>
+                        <outlet property="p3MinusFiveBtn" destination="2Kx-PE-QT7" id="jQs-ND-IYl"/>
+                        <outlet property="p3MinusOneBtn" destination="uBk-6v-CRz" id="bMX-vr-meT"/>
+                        <outlet property="p3PlusFiveBtn" destination="BUL-ah-GtG" id="CZQ-yM-2BO"/>
+                        <outlet property="p3PlusOneBtn" destination="cIf-Dz-dhp" id="EHr-Rq-8CG"/>
                         <outlet property="p4LivesView" destination="QES-LG-V5R" id="pAR-DH-pbK"/>
+                        <outlet property="p4MinusFiveBtn" destination="5NA-I7-VV8" id="r0t-MV-tgh"/>
+                        <outlet property="p4MinusOneBtn" destination="U0m-X9-gXN" id="dyZ-eS-X7x"/>
+                        <outlet property="p4PlusFiveBtn" destination="XWo-pa-D02" id="7HS-JG-gKz"/>
+                        <outlet property="p4PlusOneBtn" destination="csa-ML-hqX" id="ThI-oL-2Rm"/>
+                        <outlet property="resetBtn" destination="Phn-M8-HLf" id="ySb-KA-4A8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -293,6 +304,54 @@
     <resources>
         <image name="Refresh-Bold-128.png" width="128" height="128"/>
     </resources>
+    <classes>
+        <class className="GradientButton" superclassName="UIButton">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GradientButton.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="minusFiveP1:"/>
+                <relationship kind="action" name="minusFiveP2:"/>
+                <relationship kind="action" name="minusFiveP3:"/>
+                <relationship kind="action" name="minusFiveP4:"/>
+                <relationship kind="action" name="minusOneP1:"/>
+                <relationship kind="action" name="minusOneP2:"/>
+                <relationship kind="action" name="minusOneP3:"/>
+                <relationship kind="action" name="minusOneP4:"/>
+                <relationship kind="action" name="plusFiveP1:"/>
+                <relationship kind="action" name="plusFiveP2:"/>
+                <relationship kind="action" name="plusFiveP3:"/>
+                <relationship kind="action" name="plusFiveP4:"/>
+                <relationship kind="action" name="plusOneP1:"/>
+                <relationship kind="action" name="plusOneP2:"/>
+                <relationship kind="action" name="plusOneP3:"/>
+                <relationship kind="action" name="plusOneP4:"/>
+                <relationship kind="action" name="reset:"/>
+                <relationship kind="outlet" name="p1LivesView" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="p1MinusFiveBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p1MinusOneBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p1PlusFiveBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p1PlusOneBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p2LivesView" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="p2MinusFiveBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p2MinusOneBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p2PlusFiveBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p2PlusOneBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p3LivesView" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="p3MinusFiveBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p3MinusOneBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p3PlusFiveBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p3PlusOneBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p4LivesView" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="p4MinusFiveBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p4MinusOneBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p4PlusFiveBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="p4PlusOneBtn" candidateClass="GradientButton"/>
+                <relationship kind="outlet" name="resetBtn" candidateClass="GradientButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

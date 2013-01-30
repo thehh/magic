@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GradientButton.h"
 
 @interface ViewController : UIViewController
 {
@@ -20,25 +21,27 @@
     IBOutlet UILabel *p3LivesView;
     IBOutlet UILabel *p4LivesView;
     
-    UIButton *p1PlusFiveBtn;
-    UIButton *p1MinusFiveBtn;
-    UIButton *p1PlusOneBtn;
-    UIButton *p1MinusOneBtn;
+    GradientButton *p1PlusFiveBtn;
+    GradientButton *p1MinusFiveBtn;
+    GradientButton *p1PlusOneBtn;
+    GradientButton *p1MinusOneBtn;
     
-    UIButton *p2PlusFiveBtn;
-    UIButton *p2MinusFiveBtn;
-    UIButton *p2PlusOneBtn;
-    UIButton *p2MinusOneBtn;
+    GradientButton *p2PlusFiveBtn;
+    GradientButton *p2MinusFiveBtn;
+    GradientButton *p2PlusOneBtn;
+    GradientButton *p2MinusOneBtn;
     
-    UIButton *p3PlusFiveBtn;
-    UIButton *p3MinusFiveBtn;
-    UIButton *p3PlusOneBtn;
-    UIButton *p3MinusOneBtn;
+    GradientButton *p3PlusFiveBtn;
+    GradientButton *p3MinusFiveBtn;
+    GradientButton *p3PlusOneBtn;
+    GradientButton *p3MinusOneBtn;
     
-    UIButton *p4PlusFiveBtn;
-    UIButton *p4MinusFiveBtn;
-    UIButton *p4PlusOneBtn;
-    UIButton *p4MinusOneBtn;
+    GradientButton *p4PlusFiveBtn;
+    GradientButton *p4MinusFiveBtn;
+    GradientButton *p4PlusOneBtn;
+    GradientButton *p4MinusOneBtn;
+    
+    GradientButton *resetBtn;
     
 }
 
@@ -64,24 +67,26 @@
 
 - (IBAction)reset:(id)sender;
 
-@property(retain) IBOutlet UIButton *p1PlusFiveBtn;
-@property(retain) IBOutlet UIButton *p1MinusFiveBtn;
-@property(retain) IBOutlet UIButton *p1PlusOneBtn;
-@property(retain) IBOutlet UIButton *p1MinusOneBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p1PlusFiveBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p1MinusFiveBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p1PlusOneBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p1MinusOneBtn;
 
-@property(retain) IBOutlet UIButton *p2PlusFiveBtn;
-@property(retain) IBOutlet UIButton *p2MinusFiveBtn;
-@property(retain) IBOutlet UIButton *p2PlusOneBtn;
-@property(retain) IBOutlet UIButton *p2MinusOneBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p2PlusFiveBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p2MinusFiveBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p2PlusOneBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p2MinusOneBtn;
 
-@property(retain) IBOutlet UIButton *p3PlusFiveBtn;
-@property(retain) IBOutlet UIButton *p3MinusFiveBtn;
-@property(retain) IBOutlet UIButton *p3PlusOneBtn;
-@property(retain) IBOutlet UIButton *p3MinusOneBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p3PlusFiveBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p3MinusFiveBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p3PlusOneBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p3MinusOneBtn;
 
-@property(retain) IBOutlet UIButton *p4PlusFiveBtn;
-@property(retain) IBOutlet UIButton *p4MinusFiveBtn;
-@property(retain) IBOutlet UIButton *p4PlusOneBtn;
-@property(retain) IBOutlet UIButton *p4MinusOneBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p4PlusFiveBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p4MinusFiveBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p4PlusOneBtn;
+@property(retain,nonatomic) IBOutlet GradientButton *p4MinusOneBtn;
+
+@property(retain,nonatomic) IBOutlet GradientButton *resetBtn;
 
 @end
