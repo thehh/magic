@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662C221F16B9EDCF00C94665 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 662C221E16B9EDCF00C94665 /* background.png */; };
+		662C222216B9EDDB00C94665 /* big_reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 662C222116B9EDDB00C94665 /* big_reload.png */; };
+		662C223116B9FBC600C94665 /* FXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 662C223016B9FBC600C94665 /* FXLabel.m */; };
+		662C223216B9FBC600C94665 /* FXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 662C223016B9FBC600C94665 /* FXLabel.m */; };
 		6646395716B96615001648EC /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6646395616B96615001648EC /* GradientButton.m */; };
 		6646395816B96615001648EC /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6646395616B96615001648EC /* GradientButton.m */; };
-		6665D7C516B2D2460025C55B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6665D7C416B2D2460025C55B /* background.jpg */; };
-		6665D7C716B2D4DB0025C55B /* Refresh-Bold-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 6665D7C616B2D4DB0025C55B /* Refresh-Bold-128.png */; };
 		66F204B316A9EC8700958943 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F204B216A9EC8700958943 /* UIKit.framework */; };
 		66F204B516A9EC8700958943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F204B416A9EC8700958943 /* Foundation.framework */; };
 		66F204B716A9EC8700958943 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F204B616A9EC8700958943 /* CoreGraphics.framework */; };
@@ -41,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		662C221E16B9EDCF00C94665 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		662C222116B9EDDB00C94665 /* big_reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big_reload.png; sourceTree = "<group>"; };
+		662C222F16B9FBC600C94665 /* FXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXLabel.h; path = "../../../../Downloads/FXLabel-master/FXLabel/FXLabel.h"; sourceTree = "<group>"; };
+		662C223016B9FBC600C94665 /* FXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXLabel.m; path = "../../../../Downloads/FXLabel-master/FXLabel/FXLabel.m"; sourceTree = "<group>"; };
 		6646395516B96615001648EC /* GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientButton.h; sourceTree = "<group>"; };
 		6646395616B96615001648EC /* GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientButton.m; sourceTree = "<group>"; };
-		6665D7C416B2D2460025C55B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
-		6665D7C616B2D4DB0025C55B /* Refresh-Bold-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh-Bold-128.png"; sourceTree = "<group>"; };
 		66F204AE16A9EC8700958943 /* Lifecount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifecount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F204B216A9EC8700958943 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66F204B416A9EC8700958943 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		662C222616B9F23F00C94665 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				662C222F16B9FBC600C94665 /* FXLabel.h */,
+				662C223016B9FBC600C94665 /* FXLabel.m */,
+			);
+			name = Labels;
+			path = Lifecount;
+			sourceTree = "<group>";
+		};
 		6646395916B96754001648EC /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +140,7 @@
 		66F204A316A9EC8700958943 = {
 			isa = PBXGroup;
 			children = (
+				662C222616B9F23F00C94665 /* Labels */,
 				66E9A1F416B86EEC00118199 /* Gradient Buttons */,
 				66F204B816A9EC8700958943 /* Lifecount */,
 				66F204DF16A9EC8700958943 /* LifecountTests */,
@@ -167,8 +182,8 @@
 		66F204B916A9EC8700958943 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6665D7C616B2D4DB0025C55B /* Refresh-Bold-128.png */,
-				6665D7C416B2D2460025C55B /* background.jpg */,
+				662C222116B9EDDB00C94665 /* big_reload.png */,
+				662C221E16B9EDCF00C94665 /* background.png */,
 				66F204BA16A9EC8700958943 /* Lifecount-Info.plist */,
 				66F204BB16A9EC8700958943 /* InfoPlist.strings */,
 				66F204BE16A9EC8700958943 /* main.m */,
@@ -276,8 +291,8 @@
 				66F204C916A9EC8700958943 /* Default-568h@2x.png in Resources */,
 				66F204CC16A9EC8700958943 /* MainStoryboard_iPhone.storyboard in Resources */,
 				66F204CF16A9EC8700958943 /* MainStoryboard_iPad.storyboard in Resources */,
-				6665D7C516B2D2460025C55B /* background.jpg in Resources */,
-				6665D7C716B2D4DB0025C55B /* Refresh-Bold-128.png in Resources */,
+				662C221F16B9EDCF00C94665 /* background.png in Resources */,
+				662C222216B9EDDB00C94665 /* big_reload.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +331,7 @@
 				66F204C316A9EC8700958943 /* AppDelegate.m in Sources */,
 				66F204D216A9EC8700958943 /* ViewController.m in Sources */,
 				6646395716B96615001648EC /* GradientButton.m in Sources */,
+				662C223116B9FBC600C94665 /* FXLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +341,7 @@
 			files = (
 				66F204E716A9EC8700958943 /* LifecountTests.m in Sources */,
 				6646395816B96615001648EC /* GradientButton.m in Sources */,
+				662C223216B9FBC600C94665 /* FXLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
