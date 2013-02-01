@@ -47,9 +47,47 @@
     p3Lives = 20;
     p4Lives = 20;
     
-    p1LivesView.textColor = p2LivesView.textColor = p3LivesView.textColor = p4LivesView.textColor = [UIColor whiteColor];
+    p1LivesView.textColor = p2LivesView.textColor = p3LivesView.textColor = p4LivesView.textColor = [UIColor blackColor];
     
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
+    p1LivesView.shadowColor = [UIColor colorWithWhite:1.0f alpha:0.8f];
+    p1LivesView.shadowOffset = CGSizeMake(1.0f, 1.0f);
+    p1LivesView.shadowBlur = 1.0f;
+    p1LivesView.innerShadowBlur = 2.0f;
+    p1LivesView.innerShadowColor = [UIColor colorWithWhite:0.0f alpha:0.8f];
+    p1LivesView.innerShadowOffset = CGSizeMake(1.0f, 1.0f);
+    p1LivesView.gradientEndColor = [UIColor blackColor];
+    p1LivesView.gradientStartColor = [UIColor lightGrayColor];
+
+    p2LivesView.shadowColor = [UIColor colorWithWhite:1.0f alpha:0.8f];
+    p2LivesView.shadowOffset = CGSizeMake(1.0f, 1.0f);
+    p2LivesView.shadowBlur = 1.0f;
+    p2LivesView.innerShadowBlur = 2.0f;
+    p2LivesView.innerShadowColor = [UIColor colorWithWhite:0.0f alpha:0.8f];
+    p2LivesView.innerShadowOffset = CGSizeMake(1.0f, 1.0f);
+    p2LivesView.gradientEndColor = [UIColor blackColor];
+    p2LivesView.gradientStartColor = [UIColor lightGrayColor];
+    
+    p3LivesView.shadowColor = [UIColor colorWithWhite:1.0f alpha:0.8f];
+    p3LivesView.shadowOffset = CGSizeMake(1.0f, 1.0f);
+    p3LivesView.shadowBlur = 1.0f;
+    p3LivesView.innerShadowBlur = 2.0f;
+    p3LivesView.innerShadowColor = [UIColor colorWithWhite:0.0f alpha:0.8f];
+    p3LivesView.innerShadowOffset = CGSizeMake(1.0f, 1.0f);
+    p3LivesView.gradientEndColor = [UIColor blackColor];
+    p3LivesView.gradientStartColor = [UIColor lightGrayColor];
+    
+    
+    p4LivesView.shadowColor = [UIColor colorWithWhite:1.0f alpha:0.8f];
+    p4LivesView.shadowOffset = CGSizeMake(1.0f, 1.0f);
+    p4LivesView.shadowBlur = 1.0f;
+    p4LivesView.innerShadowBlur = 2.0f;
+    p4LivesView.innerShadowColor = [UIColor colorWithWhite:0.0f alpha:0.8f];
+    p4LivesView.innerShadowOffset = CGSizeMake(1.0f, 1.0f);
+    p4LivesView.gradientEndColor = [UIColor blackColor];
+    p4LivesView.gradientStartColor = [UIColor lightGrayColor];
+
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
     
     p1LivesView.numberOfLines = 0;
     p2LivesView.numberOfLines = 0;
@@ -81,7 +119,7 @@
     [_p4MinusOneBtn useRedDeleteStyle];
     [_p4PlusOneBtn useGreenConfirmStyle];
     
-    [_resetBtn useWhiteActionSheetStyle];
+    [_resetBtn useWhiteStyle];
     
     /*Botones Player 1*/
     /*

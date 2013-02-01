@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "GradientButton.h"
+#import "FXLabel.h"
 
 @interface ViewController : UIViewController
 {
@@ -16,10 +17,10 @@
     int p3Lives;
     int p4Lives;
     
-    IBOutlet UILabel *p1LivesView;
-    IBOutlet UILabel *p2LivesView;
-    IBOutlet UILabel *p3LivesView;
-    IBOutlet UILabel *p4LivesView;
+    IBOutlet FXLabel *p1LivesView;
+    IBOutlet FXLabel *p2LivesView;
+    IBOutlet FXLabel *p3LivesView;
+    IBOutlet FXLabel *p4LivesView;
     
     GradientButton *p1PlusFiveBtn;
     GradientButton *p1MinusFiveBtn;
@@ -88,5 +89,6 @@
 @property(retain,nonatomic) IBOutlet GradientButton *p4MinusOneBtn;
 
 @property(retain,nonatomic) IBOutlet GradientButton *resetBtn;
+
 
 @end
